@@ -9,7 +9,8 @@ node {
       sh 'mkdir test3'
    }
    stage('Results') {
-      sh 'ls'
-      echo 'this is branch2'
+      sh 'ls /'
+      sh 'mkdir /test'
+      echo 'this is branch3'
    }
 }
